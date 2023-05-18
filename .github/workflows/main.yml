@@ -30,6 +30,6 @@ jobs:
           
       - name: Run tests
         run: |
-          set -xe
+          set -eo pipefail
           npx hardhat test     
       
