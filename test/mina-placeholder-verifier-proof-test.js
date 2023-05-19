@@ -16,6 +16,7 @@ const {getNamedAccounts} = hre
 describe('Mina state proof validation tests', function () {
     const {deployments, getNamedAccounts} = hre;
     const {deploy} = deployments;
+    brerseewsfdfsdfkdsjfsdkf 
 
     function loadParamsFromFile(jsonFile) {
         const named_params = losslessJSON.parse(fs.readFileSync(jsonFile, 'utf8'));
